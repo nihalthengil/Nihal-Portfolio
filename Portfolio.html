@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "jH33TWriHJTRjlwqC",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- grid -->
+      <div class="row">
+        <div class="col"><a href="">Nihal Ahammed</a></div>
+        <div class="col"><a href="#about">About</a></div>
+        <div class="col"><a href="#skill">Skill</a></div>
+        <div class="col"><a href="#Project">Project</a></div>
+        <div class="col"><a href="#contact">Contact</a></div>
+      </div>
+      <br /><br />
+      <!-- first page -->
+      <div class="row" style="background: transparent !important">
+        <div class="header col-6">
+          <h1 id="head">
+            Hi,I am <br />
+            Nihal Ahammed
+          </h1>
+          <p id="hd-p">Web Developer</p>
+          <a href="" id="hd-contact">
+            <i class="bi bi-chat-dots"></i>
+            Contant</a
+          >
+          <br /><br />
+          <br /><br />
+          <a href="https://www.linkedin.com/in/nihal-thengil007/" class="hd-icn"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/nihal_thengil" class="hd-icn"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://github.com/nihalthengil" class="hd-icn"
+            ><i class="bi bi-github"></i
+          ></a>
+        </div>
+        <div class="pp col-6">
+          <img
+            class=""
+            id="my-img"
+            src="/Weekly Task/Portfolio/my photo.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- About me -->
+    <div id="about" class="about">
+      <div>
+        <div>
+          <br /><br />
+          <h2>About Me</h2>
+        </div>
+        <div>
+          <p>
+            Hi , I am Nihal Ahammed and I live in the city Vengara in Malappuram
+            and I am <br />
+            a Web Designer and Web developer. I have completed my 3-years of
+            degree at <br />
+            Acharya Bangalore B-School(ABBS) at Bangalore. Iam currenly learning
+            <br />
+            Html,css & JavaScript for my future career.
+          </p>
+        </div>
+      </div>
+      <div class="abt-icn">
+        <div><i class="bi bi-person-fill"></i> 21</div>
+        <div><i class="bi bi-volume-up-fill"></i> English,Hindi,Malayalam</div>
+        <div><i class="bi bi-geo-alt-fill"></i> Kerala,India</div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <!-- Skill -->
+    <br /><br /><br />
+    <div id="skill" class="skills">
+      <h3>Skill</h3>
+      <p>Let's talk Technology</p>
+      <br /><br />
+      <img id="skill-img" src="pngegg.png" alt="" />
+    </div>
+    <br /><br />
+    <br /><br />
+
+    <!-- project section -->
+    <div id="Project" class="project">
+      <h3>Project</h3>
+      <br /><br /><br />
+      <div class="pjt-img-cls">
+        <div><img class="pjt-img" src="navbar.png" alt="" /></div>
+        <div><img class="pjt-img" src="linked in.png" alt="" /></div>
+        <div><img class="pjt-img" src="bank acccount.png" alt="" /></div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <!-- contact section -->
+    <br /><br /><br /><br />
+    <section id="contact" class="contact">
+      <div class="container py-5">
+        <h1 class="text-center text-black">Contact Us</h1>
+        <div class="row py-5">
+          <div class="col-10 mx-auto">
+            <div class="row text-center">
+              <div class="col-4 text-black">
+                <div class="circle">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <h4>Adress</h4>
+                <p>Thengil(H),kuttallor,Vengara,Malappuram</p>
+              </div>
+              <div class="col-4 text-black">
+                <div class="circle">
+                  <i class="bi bi-envelope-at-fill"></i>
+                </div>
+                <h4>Email</h4>
+                <p>nihalap46@gmail.com</p>
+              </div>
+              <div class="col-4 text-black">
+                <div class="circle">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <h4>Contact</h4>
+                <p>9746800025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-9">
+            <div class="form-now">
+              <div class="col-6">
+                <input
+                  id="name"
+                  type="text"
+                  class="form-control bg-light mb-3"
+                  placeholder="name"
+                />
+              </div>
+              <div class="col-6">
+                <input
+                  id="email"
+                  type="text"
+                  class="form-control bg-light mb-3"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-12">
+                <textarea
+                  id="Message"
+                  class="form-control bg-light"
+                  style="height: 200px; width: 500px"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn3 my-4" onclick="sendmail()">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BootStrap JS -->
+    <script src="portfolio.js"></script>
+    <script src="/BootStrap/js/bootstrap.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

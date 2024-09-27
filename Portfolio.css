@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(232, 224, 213, 0.63);
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+}
+.row{
+    background-color:#c6b6df67;
+}
+
+.col{
+    padding: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    
+    }
+
+.col-4,.col-2:hover{
+    background-color: #8b72af;
+}
+#head{
+    font-size: 70px;
+    color: #8b72af;
+}
+
+#hd-p{
+    font-size: xx-large;
+    color: #8b72af;
+}
+#hd-contact{
+    padding:10px;
+    border: solid #8b72af;
+    color:black;
+    background-color: #8b72af;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.hd-icn{
+    font-size:30px;
+    color: #000;
+    padding: 5px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(222, 214, 203);
+    border-radius: 20px;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.abt-icn{
+    font-size: 20px;
+}
+.abt-icn div{
+    margin: 10px;
+}
+.about p{
+    font-weight: 600;
+}
+
+.pp{justify-content: end;
+}
+.skills{
+    text-align: center;
+}
+#skill-img{
+    height: 300px;
+    width: 900px;
+}
+.pjt-img{
+    height: 190px;
+    width: 350px;
+}
+.pjt-img-cls{
+    display: flex;
+    justify-content: space-around;
+}
+.project{
+    text-align: center;
+}
+#my-img{
+    height: 500px;
+    width: 500px;
+}
+.section{
+    border-radius: 20px;
+}
